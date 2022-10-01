@@ -84,13 +84,27 @@
         </q-card-section>
 
         <q-card-section>
-          <div v-for="(dS, key) in corpusOfPlanet.data.dataSet" :key="key">
-            <q-img v-if="dS.type == 'image'" :alt="dS.name" :src="dS.url">
-              <div class="absolute-bottom text-subtitle1 text-center">
-                {{ dS.name }}
+          <q-scroll-area style="height: 100vh">
+            <div class="row no-wrap">
+              <div
+                v-for="(dS, key) in corpusOfPlanet.data.dataSet"
+                :key="key"
+                style="width: 500px"
+                class="q-ma-sm"
+              >
+                <template v-if="dS.type == 'image'">
+                  <q-img :alt="dS.name" :src="dS.url" class="q-ma-sm">
+                    <div class="absolute-bottom text-subtitle1 text-center">
+                      {{ dS.name }}
+                    </div>
+                  </q-img>
+                </template>
+                <template v-if="dS.type == 'video'">
+                  <q-video :ratio="16 / 9" :src="dS.url" class="q-ma-sm" />
+                </template>
               </div>
-            </q-img>
-          </div>
+            </div>
+          </q-scroll-area>
         </q-card-section>
 
         <q-card-section
