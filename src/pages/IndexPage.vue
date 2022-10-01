@@ -83,7 +83,7 @@
           <div class="text-h4 text-bold">{{ corpusOfPlanet.data.name }}</div>
         </q-card-section>
 
-        <q-card-section>
+        <q-card-section v-if="corpusOfPlanet.data.dataSet.length > 0">
           <q-scroll-area style="height: 100vh">
             <div class="row no-wrap">
               <div
@@ -111,6 +111,14 @@
           v-if="corpusOfPlanet.data.threeDmodelCorpus"
           v-html="corpusOfPlanet.data.threeDmodelCorpus.url"
         >
+        </q-card-section>
+
+        <q-card-section v-if="corpusOfPlanet.data.realTimeVideo">
+          <q-video
+            :ratio="16 / 9"
+            :src="corpusOfPlanet.data.realTimeVideo"
+            class="q-ma-sm"
+          />
         </q-card-section>
 
         <q-card-section class="q-pt-none">
