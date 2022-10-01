@@ -83,6 +83,16 @@
           <div class="text-h4 text-bold">{{ corpusOfPlanet.data.name }}</div>
         </q-card-section>
 
+        <q-card-section>
+          <div v-for="(dS, key) in corpusOfPlanet.data.dataSet" :key="key">
+            <q-img v-if="dS.type == 'image'" :alt="dS.name" :src="dS.url">
+              <div class="absolute-bottom text-subtitle1 text-center">
+                {{ dS.name }}
+              </div>
+            </q-img>
+          </div>
+        </q-card-section>
+
         <q-card-section
           v-if="corpusOfPlanet.data.threeDmodelCorpus"
           v-html="corpusOfPlanet.data.threeDmodelCorpus.url"
