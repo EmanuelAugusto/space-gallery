@@ -27,8 +27,8 @@
       v-model="plenetSelected.modal"
       persistent
       maximized
-      transition-show="animated fadeIn"
-      transition-hide="animated fadeIn"
+      transition-show="slide-up"
+      transition-hide="slide-down"
     >
       <q-card v-if="plenetSelected.modal" class="bg-black text-white">
         <q-bar>
@@ -119,7 +119,7 @@ export default defineComponent({
       if (!pl.clickable) {
         return;
       }
-      
+
       plenetSelected.value = {
         modal: true,
         data: pl,

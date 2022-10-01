@@ -9,6 +9,7 @@
     "velocity": "220",
     "distance": "0",
     "description": "The Sun (or Sol), is the star at the centre of our solar system and is responsible for the Earth’s climate and weather. The Sun is an almost perfect sphere with a difference of just 10km in diameter between the poles and the equator. The average radius of the Sun is 695,508 km (109.2 x that of the Earth) of which 20–25% is the core."
+  
   },
   {
     "position": "0",
@@ -39,8 +40,8 @@
     "name": "Mercury",
     "image": "mercury.png",
     "velocity": "47",
-    "width": 300,
-    "height": 300,
+    "width": 200,
+    "height": 200,
     "distance": "58",
     "relations": [
       {
@@ -66,8 +67,8 @@
     "clickable": true,
     "image": "venus.png",
     "velocity": "35",
-    "width": 300,
-    "height": 300,
+    "width": 250,
+    "height": 250,
     "distance": "108",
     "orbits": [
       {
@@ -87,15 +88,15 @@
     "position": "3",
     "clickable": true,
     "name": "Earth",
-    "width": 300,
-    "height": 300,
+    "width": 250,
+    "height": 250,
     "image": "earth.png",
     "velocity": "29",
     "orbits": [
       {
         "name": "Earth",
-        "height": 300,
-        "width": 300,
+        "height": 400,
+        "width": 400,
         "ratio": "16/9",
         "threeDmodelCorpus": {
           "url": "<iframe src='https://solarsystem.nasa.gov/gltf_embed/2392' width='100%' height='450px' frameborder='0' />"
@@ -163,8 +164,8 @@
     "name": "Mars",
     "clickable": true,
     "image": "mars.png",
-    "width": 300,
-    "height": 300,
+    "width": 200,
+    "height": 200,
     "velocity": "24",
     "distance": "227",
     "orbits": [
@@ -186,8 +187,8 @@
     "name": "Jupiter",
     "clickable": true,
     "image": "jupiter.png",
-    "width": 600,
-    "height": 600,
+    "width": 700,
+    "height": 700,
     "velocity": "13",
     "distance": "778",
     "orbits": [
@@ -210,8 +211,8 @@
     "clickable": true,
     "image": "saturn.png",
     "velocity": "9",
-    "width": 300,
-    "height": 300,
+    "width": 450,
+    "height": 450,
     "orbits": [
       {
         "name": "moon",
@@ -232,8 +233,8 @@
     "name": "Uranus",
     "clickable": true,
     "image": "uranus.png",
-    "width": 300,
-    "height": 300,
+    "width": 270,
+    "height": 270,
     "orbits": [
       {
         "name": "moon",
@@ -254,8 +255,8 @@
     "position": "8",
     "clickable": true,
     "name": "Neptune",
-    "width": 300,
-    "height": 300,
+    "width": 270,
+    "height": 270,
     "orbits": [
       {
         "name": "moon",
