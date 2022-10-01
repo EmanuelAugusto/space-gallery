@@ -167,6 +167,11 @@
             "type": "image",
             "name": "Stephan's Quintet",
             "url": "https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/main_image_galaxies_stephans_quintet_sq_nircam_miri_final-1280.jpg?itok=HyMw6H_h"
+          },
+          {
+            "type": "video",
+            "name": "",
+            "url": "https://www.youtube.com/embed/1C_zuHf6lP4?rel=0"
           }
         ],
         "image": "james-web.png",
