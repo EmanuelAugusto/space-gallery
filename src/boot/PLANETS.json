@@ -1,9 +1,33 @@
 [
   {
+    "position": "0",
+    "name": "Sun",
+    "image": "sun.png",
+    "width": 600,
+    "height": 600,
+    "orbits": [
+      {
+        "name": "moon",
+        "image": ""
+      }
+    ],
+    "data": [
+      {
+        "type": "video",
+        "url": "oFDeNcu3mnc"
+      }
+    ],
+    "velocity": "220",
+    "distance": "0",
+    "description": "The Sun (or Sol), is the star at the centre of our solar system and is responsible for the Earth’s climate and weather. The Sun is an almost perfect sphere with a difference of just 10km in diameter between the poles and the equator. The average radius of the Sun is 695,508 km (109.2 x that of the Earth) of which 20–25% is the core."
+  },
+  {
     "position": "1",
     "name": "Mercury",
     "image": "mercury.png",
     "velocity": "47",
+    "width": 300,
+    "height": 300,
     "distance": "58",
     "relations": [
       {
@@ -28,6 +52,8 @@
     "name": "Venus",
     "image": "venus.png",
     "velocity": "35",
+    "width": 300,
+    "height": 300,
     "distance": "108",
     "orbits": [
       {
@@ -46,6 +72,8 @@
   {
     "position": "3",
     "name": "Earth",
+    "width": 300,
+    "height": 300,
     "image": "earth.png",
     "velocity": "29",
     "orbits": [
@@ -54,27 +82,56 @@
         "height": 300,
         "width": 300,
         "ratio": "16/9",
+        "threeDmodelCorpus": {
+          "url": "<iframe src='https://solarsystem.nasa.gov/gltf_embed/2392' width='100%' height='450px' frameborder='0' />"
+        },
+        "description": "earthDescription",
+        "dataSet": [],
         "image": "earth.png",
-        "x": 150,
-        "y": 100
+        "x": 100,
+        "y": 100,
+        "realTimeVideo": "ddZu_1Z3BAc"
       },
       {
         "name": "moon",
         "height": 150,
         "width": 150,
         "ratio": "16/9",
+        "threeDmodelCorpus": null,
+        "dataSet": [],
         "image": "moon-earth2.png",
-        "x": 900,
-        "y": 100
+        "description": "",
+        "x": 850,
+        "y": 100,
+        "realTimeVideo": null
       },
       {
         "name": "ISS",
         "height": 70,
         "width": 70,
         "ratio": 1,
+        "dataSet": [],
+        "threeDmodelCorpus": {
+          "url": "<iframe src='https://solarsystem.nasa.gov/gltf_embed/2378' width='100%' height='450px' frameborder='0' />"
+        },
+        "description": "issDescription",
         "image": "iss.png",
         "x": 430,
-        "y": 150
+        "y": 150,
+        "realTimeVideo": null
+      },
+      {
+        "name": "James",
+        "height": 70,
+        "width": 70,
+        "ratio": 1,
+        "threeDmodelCorpus": null,
+        "dataSet": [],
+        "image": "james-web.png",
+        "description": "",
+        "x": 1100,
+        "y": 180,
+        "realTimeVideo": null
       }
     ],
     "data": [
@@ -90,6 +147,8 @@
     "position": "4",
     "name": "Mars",
     "image": "mars.png",
+    "width": 300,
+    "height": 300,
     "velocity": "24",
     "distance": "227",
     "orbits": [
@@ -110,6 +169,8 @@
     "position": "5",
     "name": "Jupiter",
     "image": "jupiter.png",
+    "width": 600,
+    "height": 600,
     "velocity": "13",
     "distance": "778",
     "orbits": [
@@ -131,6 +192,8 @@
     "name": "Saturn",
     "image": "saturn.png",
     "velocity": "9",
+    "width": 300,
+    "height": 300,
     "orbits": [
       {
         "name": "moon",
@@ -150,6 +213,8 @@
     "position": "7",
     "name": "Uranus",
     "image": "uranus.png",
+    "width": 300,
+    "height": 300,
     "orbits": [
       {
         "name": "moon",
@@ -169,6 +234,8 @@
   {
     "position": "8",
     "name": "Neptune",
+    "width": 300,
+    "height": 300,
     "orbits": [
       {
         "name": "moon",
@@ -185,25 +252,5 @@
     "velocity": "5",
     "distance": "4498",
     "description": "Neptune is the eighth planet from the Sun making it the most distant in the solar system. This gas giant planet may have formed much closer to the Sun in early solar system history before migrating to its present position."
-  },
-  {
-    "position": "9",
-    "name": "Sun",
-    "image": "sun.png",
-    "orbits": [
-      {
-        "name": "moon",
-        "image": ""
-      }
-    ],
-    "data": [
-      {
-        "type": "video",
-        "url": "oFDeNcu3mnc"
-      }
-    ],
-    "velocity": "220",
-    "distance": "0",
-    "description": "The Sun (or Sol), is the star at the centre of our solar system and is responsible for the Earth’s climate and weather. The Sun is an almost perfect sphere with a difference of just 10km in diameter between the poles and the equator. The average radius of the Sun is 695,508 km (109.2 x that of the Earth) of which 20–25% is the core."
   }
 ]
