@@ -13,7 +13,7 @@
           :width="`${pl.width}px`"
           :ratio="16 / 9"
           :src="pl.image"
-          class="q-ma-md cursor-pointer"
+          :class="`q-ma-md ${pl.clickable ? 'cursor-pointer' : ''}`"
           @click="navigatePlanet(pl)"
         >
           <div class="absolute-bottom text-subtitle1 text-center">
@@ -116,6 +116,10 @@ export default defineComponent({
     });
 
     function navigatePlanet(pl) {
+      if (!pl.clickable) {
+        return;
+      }
+      
       plenetSelected.value = {
         modal: true,
         data: pl,
