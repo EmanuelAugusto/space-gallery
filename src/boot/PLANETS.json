@@ -158,6 +158,11 @@
             "type": "video",
             "name": "",
             "url": "https://www.youtube.com/embed/1C_zuHf6lP4?rel=0"
+          },
+          {
+            "type": "article",
+            "name": "LATEST NEWS NEW JAMES WEBB",
+            "url": "https://webb.nasa.gov/content/webbLaunch/news.html"
           }
         ],
         "image": "james-web.png",
@@ -204,8 +209,8 @@
     "name": "Jupiter",
     "clickable": true,
     "image": "jupiter.png",
-    "width": 700,
-    "height": 700,
+    "width": 650,
+    "height": 650,
     "velocity": "13",
     "distance": "778",
     "orbits": [

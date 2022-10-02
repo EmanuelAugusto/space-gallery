@@ -102,6 +102,22 @@
                 <template v-if="dS.type == 'video'">
                   <q-video :ratio="16 / 9" :src="dS.url" class="q-ma-sm" />
                 </template>
+                <template v-if="dS.type == 'article'">
+                  <q-btn
+                    :href="dS.url"
+                    target="_blank"
+                    style="width: 300px; height: 300px"
+                  >
+                    <q-img
+                      src="article.png"
+                      style="width: 300px; height: 300px"
+                    >
+                      <div class="absolute-bottom text-subtitle1 text-center">
+                        {{ dS.name }}
+                      </div>
+                    </q-img>
+                  </q-btn>
+                </template>
               </div>
             </div>
           </q-scroll-area>
