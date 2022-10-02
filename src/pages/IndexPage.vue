@@ -109,8 +109,10 @@
                     style="width: 300px; height: 300px"
                   >
                     <q-img
-                      src="article.png"
+                      :src="dS.logo"
                       style="width: 300px; height: 300px"
+                      ratio="1"
+                      fit="contain"
                     >
                       <div class="absolute-bottom text-subtitle1 text-center">
                         {{ dS.name }}
