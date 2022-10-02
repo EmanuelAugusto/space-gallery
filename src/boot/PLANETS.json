@@ -133,7 +133,7 @@
         "image": "earth.png",
         "x": 100,
         "y": 100,
-        "realTimeVideo": "ddZu_1Z3BAc"
+        "realTimeVideo": "https://www.youtube.com/embed/ddZu_1Z3BAc?rel=0"
       },
       {
         "name": "Moon",
@@ -155,23 +155,7 @@
         "height": 70,
         "width": 70,
         "ratio": 1,
-        "dataSet": [
-          {
-            "type": "video",
-            "description": "",
-            "url": ""
-          },
-          {
-            "type": "ahref",
-            "description": "",
-            "url": ""
-          },
-          {
-            "type": "image",
-            "description": "",
-            "url": ""
-          }
-        ],
+        "dataSet": [],
         "threeDmodelCorpus": {
           "url": "<iframe src='https://solarsystem.nasa.gov/gltf_embed/2378' width='100%' height='450px' frameborder='0' />"
         },
@@ -202,6 +186,11 @@
             "type": "video",
             "name": "",
             "url": "https://www.youtube.com/embed/1C_zuHf6lP4?rel=0"
+          },
+          {
+            "type": "article",
+            "name": "LATEST NEWS NEW JAMES WEBB",
+            "url": "https://webb.nasa.gov/content/webbLaunch/news.html"
           }
         ],
         "image": "james-web.png",
@@ -248,8 +237,8 @@
     "name": "Jupiter",
     "clickable": true,
     "image": "jupiter.png",
-    "width": 700,
-    "height": 700,
+    "width": 650,
+    "height": 650,
     "velocity": "13",
     "distance": "778",
     "orbits": [

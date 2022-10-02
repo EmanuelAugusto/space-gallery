@@ -83,7 +83,7 @@
           <div class="text-h4 text-bold">{{ corpusOfPlanet.data.name }}</div>
         </q-card-section>
 
-        <q-card-section>
+        <q-card-section v-if="corpusOfPlanet.data.dataSet.length > 0">
           <q-scroll-area style="height: 100vh">
             <div class="row no-wrap">
               <div
@@ -102,6 +102,22 @@
                 <template v-if="dS.type == 'video'">
                   <q-video :ratio="16 / 9" :src="dS.url" class="q-ma-sm" />
                 </template>
+                <template v-if="dS.type == 'article'">
+                  <q-btn
+                    :href="dS.url"
+                    target="_blank"
+                    style="width: 300px; height: 300px"
+                  >
+                    <q-img
+                      src="article.png"
+                      style="width: 300px; height: 300px"
+                    >
+                      <div class="absolute-bottom text-subtitle1 text-center">
+                        {{ dS.name }}
+                      </div>
+                    </q-img>
+                  </q-btn>
+                </template>
               </div>
             </div>
           </q-scroll-area>
@@ -111,6 +127,14 @@
           v-if="corpusOfPlanet.data.threeDmodelCorpus"
           v-html="corpusOfPlanet.data.threeDmodelCorpus.url"
         >
+        </q-card-section>
+
+        <q-card-section v-if="corpusOfPlanet.data.realTimeVideo">
+          <q-video
+            :ratio="16 / 9"
+            :src="corpusOfPlanet.data.realTimeVideo"
+            class="q-ma-sm"
+          />
         </q-card-section>
 
         <q-card-section class="q-pt-none">
