@@ -1,7 +1,9 @@
 # Space Gallery (space-gallery)
 
-A Space Gallery nasa app
+A Space Gallery nasa app. 
+Explore the life of our solar system through interactive artifacts. Travel and learn about other planets by clicking and interacting with them.
 
+## Screens
 <img src="public/home.jpeg"/>
 
 <img src="public/planets.jpeg"/>
@@ -20,6 +22,10 @@ https://space-repository.herokuapp.com/#/
 yarn
 # or
 npm install
+```
+## Install Quasar framework
+```bash
+npm install -g @quasar/cli
 ```
 
 ### Start the app in development mode (hot-code reloading, error reporting, etc.)
