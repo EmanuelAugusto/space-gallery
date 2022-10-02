@@ -59,7 +59,7 @@
         </q-card-section>
 
         <q-card-section class="q-pt-none">
-          {{ plenetSelected.data.description }}
+          {{ $t(plenetSelected.data.description) }}
         </q-card-section>
       </q-card>
     </q-dialog>
