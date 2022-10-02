@@ -4,6 +4,12 @@ A Space Gallery nasa app
 
 <img src="public/home.jpeg"/>
 
+<img src="public/planets.jpeg"/>
+
+<img src="public/earth-orbits.jpeg"/>
+
+<img src="public/james-webb.jpeg"/>
+
 ## Install the dependencies
 ```bash
 yarn
