@@ -10,6 +10,11 @@ A Space Gallery nasa app
 
 <img src="public/james-webb.jpeg"/>
 
+## Live Application
+```
+https://space-repository.herokuapp.com/#/
+```
+
 ## Install the dependencies
 ```bash
 yarn
