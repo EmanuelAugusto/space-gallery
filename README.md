@@ -2,6 +2,8 @@
 
 A Space Gallery nasa app
 
+<img src="public/home.jpeg"/>
+
 ## Install the dependencies
 ```bash
 yarn
@@ -19,6 +21,3 @@ quasar dev
 ```bash
 quasar build
 ```
-
-### Customize the configuration
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
